@@ -1,4 +1,4 @@
-odoo.define('toggling.rpc', function (require) {
+odoo.define('toggle_switch.rpc', function (require) {
 "use strict";
 
 
@@ -6,7 +6,7 @@ odoo.define('toggling.rpc', function (require) {
     rpc.query({
                 model:'res.config.settings',
                 method: 'get_config_value',
-                args: ['toggling.tog_shape'],
+                args: ['toggle_switch.toggle_shape'],
             }).then(function (backend_result) {
                  var table = backend_result;
                  localStorage.setItem("ClassName",backend_result['className']);

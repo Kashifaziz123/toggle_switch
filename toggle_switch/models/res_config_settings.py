@@ -124,7 +124,7 @@ class InheritedResConfigSettings(models.TransientModel):
     def set_values(self):
         super(InheritedResConfigSettings,self).set_values()
         self.env['ir.config_parameter'].sudo().set_param("toggle_shapes",self.toggle_shapes)
-        self.env['ir.config_parameter'].sudo().set_param("toggle_color",self.toggle_color)
+        self.env['ir.config_parameter'].sudo().set_param("toggle_color",self.toggle_color or '#7C7BAD')
         self.scss_dynamic_attachment()
 
 

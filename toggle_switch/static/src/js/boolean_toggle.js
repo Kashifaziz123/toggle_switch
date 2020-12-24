@@ -1,4 +1,4 @@
-odoo.define('toggling.basic_fields', function (require) {
+odoo.define('toggle_switch.basic_fields', function (require) {
 "use strict";
 
     var basic_fields = require('web.basic_fields');
