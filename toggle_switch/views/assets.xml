@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend" name="Toggle Switch Assets" inherit_id="web.assets_backend">
+        <xpath expr=".">
+            <script type="javascript" src="/toggle_switch/static/src/js/boolean_toggle.js"/>
+            <script type="javascript" src="/toggle_switch/static/src/js/rpc.js"/>
+            <script type="javascript" src="/toggle_switch/static/src/js/color_picker.js"/>
+            <t t-set="dynamic_template_colors" t-value="request.env['res.config.settings']" />
+            <link rel="stylesheet" type="text/scss" t-att-href="dynamic_template_colors.scss_dynamic_attachment()" />
+        </xpath>
+    </template>
+</odoo>
