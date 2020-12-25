@@ -11,7 +11,7 @@
     'price':30,'currency': 'EUR',
     'website': 'https://alhaditech.com',
     'depends': ['base','base_setup','web'],
-    'images': ['static/description/icon.jpeg'],
+    'images': ['static/description/icon.jpg'],
     'data': [
             "views/assets.xml",
             "views/toggle_switch.xml"
