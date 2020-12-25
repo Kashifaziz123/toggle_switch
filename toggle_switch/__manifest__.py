@@ -7,7 +7,7 @@
     'category':'Extra Tools',
     'version': '1.0.1',
     'description':"Defaults Boolean Fields into Toggle Switch & also Change its Shapes and Color Properties",
-    'author': 'Kashif Aziz',
+    'author': 'Alhaditech',
     'price':30,'currency': 'EUR',
     'website': 'https://alhaditech.com',
     'depends': ['base','base_setup','web'],
